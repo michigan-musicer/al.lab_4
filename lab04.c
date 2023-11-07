@@ -110,8 +110,10 @@ int main() {
     // Problem 6
     printf("\nTesting problem_6. The next lines should be \"racecar\\n\" and \"gfedcba\\n\".\n");
     problem_6("racecar");
+    printf("\n");
     problem_6("abcdefg");
-    
+    printf("\n");
+
     // CHALLENGE
     printf("\nTesting challenge problem, good luck!\n");
     unsigned int memo[65536];

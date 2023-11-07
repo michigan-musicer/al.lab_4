@@ -115,6 +115,9 @@ int main() {
     // CHALLENGE
     printf("\nTesting challenge problem, good luck!\n");
     unsigned int memo[65536];
+    for (unsigned int i = 0; i < 65536; ++i) {
+        memo[i] = 0;
+    }
     assert(challenge(0, memo) == 0);
     assert(challenge(20, memo) == 6765);
     assert(challenge(46, memo) == 1836311903);

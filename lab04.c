@@ -4,13 +4,14 @@
 // This is intended to be basic warmup before getting to 
 // problems on recursion.
 
-// PROBLEM 1: Define a function that prints "5\n" to the
-// terminal. Name this function "problem_1".
+// PROBLEM 1: Define a function with void-type return 
+// that prints "5\n" to the terminal. Name this function "problem_1".
 
 
 
-// PROBLEM 2: Define a function that takes an int parameter x
-// and prints "x\n" to the terminal, where x is the value of
+// PROBLEM 2: Define a function with void-type return 
+// that takes an int parameter x and prints "x\n" to the 
+// terminal, where x is the value of
 // the parameter x. Name this function "problem_2".
 
 
@@ -19,7 +20,7 @@
 // given the lengths of two sides and the angle between them. Use the
 // following formula:
 // 
-// area = 0.5 * side * side * sin(angle)
+// area = 0.5 * side1 * side2 * sin(angle)
 // 
 // Your function should take in three double type parameters.
 // 
@@ -92,7 +93,7 @@ int main() {
     printf("Testing problem_1. The next line should be \"5\\n\".\n");
     problem_1();
     // Problem 2
-    printf("\nTesting problem_1. The next lines should be \"3\\n\" and \"22\\n\".\n");
+    printf("\nTesting problem_2. The next lines should be \"3\\n\" and \"22\\n\".\n");
     problem_2(3);
     problem_2(22);
     // Problem 3

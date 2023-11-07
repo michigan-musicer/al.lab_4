@@ -59,6 +59,9 @@ int problem_5(int n) {
 // recursive solution.) Do not print a newline character.
 // Example: given "abcdefg", should print "gfedcba".
 
+// If you need help understanding how to use C-strings, start with this link
+// as a reference: 
+// https://eecs280staff.github.io/notes/05_Strings_Streams_IO.html#c-style-strings
 void problem_6(char* str) {
     assert(0);
 }
